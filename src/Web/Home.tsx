@@ -1,52 +1,83 @@
 import React from "react";
 import { TextGenerateEffect } from "../Components/Textgenerator";
 import Magicbutton from "../Components/Magicbutton";
-import { FaHome, FaLocationArrow, FaUser } from "react-icons/fa";
+import {
+  FaGithub,
+  FaHome,
+  FaLinkedin,
+  FaLocationArrow,
+  FaMailBulk,
+  FaUser,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { Spotlight } from "../Components/Spotlight";
 import { FloatingNav } from "../Components/Navbar";
 import { FaMessage } from "react-icons/fa6";
 import { TypewriterEffectSmooth } from "../Components/Typewriter";
+import { BackgroundBeams } from "../Components/background";
+import { FloatingDock } from "../Components/Floatingdock";
+import { AiOutlineLinkedin } from "react-icons/ai";
 
 const Home = () => {
-  const navItems = [
+  const links = [
     {
-      name: "Home",
-      link: "/",
-      icon: <FaHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      title: "Github",
+      icon: (
+        <FaGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+
+    {
+      title: "Whatsap",
+      icon: (
+        <FaWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
     },
     {
-      name: "About",
-      link: "/about",
-      icon: <FaUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      title: "linkedin",
+      icon: (
+        <FaLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
     },
+
     {
-      name: "Contact",
-      link: "/contact",
-      icon: <FaMessage className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      title: "Email",
+      icon: (
+        <FaMailBulk className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
     },
   ];
   return (
     <div className="relative  w-full">
-      <FloatingNav navItems={navItems} />
       <div className="min-h-screen bg-slate-900 text-white flex justify-center items-center overflow-hidden">
         <Spotlight fill="white" className="absolute -top-10 left-0" />
 
         <div className="flex flex-col text-center items-center lg:w-3/4 ">
-          <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experience"
-            className="text-center whitespace-pre-wrap"
-          />
           <TypewriterEffectSmooth
             words={[
               {
-                text: "hi I'm Udeshi Gamage,Fullstack developer based in Srilanka.",
+                text: "Ready to take your digital presence to the next level?",
                 className: "text-center whitespace-pre-wrap",
               },
             ]}
           />{" "}
-          <Magicbutton title="See My Work" />
+          <h1 className="text-white font-bold text-md">
+            Reach out to me today and let &apos;s discuss how i can help you to
+            achieve your goals
+          </h1>
+          <Magicbutton title="Contact Me" />
+          <div className="flex flex-row position:relative gap-2 justify-center items-center mt-7 ">
+            <AiOutlineLinkedin className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
+            <FaGithub className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
+            <FaWhatsapp className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
+          </div>
         </div>
       </div>
+      <BackgroundBeams />
     </div>
   );
 };
