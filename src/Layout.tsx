@@ -10,14 +10,17 @@ import { Aboutme } from "./Web/Aboutme";
 import Projects from "./Web/Projects";
 import Startup from "./Web/Startup";
 import Navbar from "./Web/Navbar";
+import { LampDemo } from "./Web/Skills";
 
 const Layout = () => {
   return (
     <div>
       <Navbar />
       <Startup />
-      <Aboutme />
+      <LampDemo />
+
       <Projects />
+      <Home />
     </div>
   );
 };
