@@ -2,6 +2,7 @@ import React from "react";
 import { CardDemo } from "../Components/Card";
 import { TextGenerateEffect } from "../Components/Textgenerator";
 import { TextHoverEffect } from "../Components/Hovereffect";
+import { BackgroundBeams } from "../Components/background";
 
 export default function Projects() {
   return (
@@ -15,6 +16,7 @@ export default function Projects() {
 
         <CardDemo />
       </div>
+      <BackgroundBeams />
     </div>
   );
 }
