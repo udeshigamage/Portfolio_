@@ -1,19 +1,11 @@
-import React from "react";
 import pico1 from "../assets/pico1.jpeg";
 import { Spotlight } from "../Components/Spotlight";
 import { TextGenerateEffect } from "../Components/Textgenerator";
 import Magicbutton from "../Components/Magicbutton";
-import {
-  FaGithub,
-  FaLocationArrow,
-  FaMailBulk,
-  FaPhone,
-  FaVoicemail,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { TypewriterEffectSmooth } from "../Components/Typewriter";
 import { BackgroundBeams } from "../Components/background";
-import { MdEmail, MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineLinkedin } from "react-icons/ai";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Magicbutton = ({ title }: { title: string }) => {
   return (
     <div>

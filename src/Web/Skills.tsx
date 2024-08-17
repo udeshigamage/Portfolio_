@@ -1,7 +1,3 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "../Components/lamp";
 import pico1 from "../assets/mongodb.jpg";
 import pico2 from "../assets/net.jpg";
 import pico3 from "../assets/node.png";
