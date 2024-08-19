@@ -1,5 +1,5 @@
 import Magicbutton from "../Components/Magicbutton";
-import { FaGithub, FaMailBulk, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { Spotlight } from "../Components/Spotlight";
 
 import { TypewriterEffectSmooth } from "../Components/Typewriter";
