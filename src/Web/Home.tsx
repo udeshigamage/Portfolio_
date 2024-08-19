@@ -1,11 +1,12 @@
 import Magicbutton from "../Components/Magicbutton";
-import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaMailBulk, FaWhatsapp } from "react-icons/fa";
 import { Spotlight } from "../Components/Spotlight";
 
 import { TypewriterEffectSmooth } from "../Components/Typewriter";
 import { BackgroundBeams } from "../Components/background";
 
 import { AiOutlineLinkedin } from "react-icons/ai";
+import { MdMail } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -27,10 +28,11 @@ const Home = () => {
             achieve your goals
           </h1>
           <Magicbutton title="Contact Me" />
-          <div className="flex flex-row position:relative gap-2 justify-center items-center mt-7 ">
+          <div className="flex flex-row position:relative gap-5 justify-center items-center mt-7 ">
             <AiOutlineLinkedin className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
             <FaGithub className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
             <FaWhatsapp className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
+            <MdMail className="h-10 w-10 text-black  mt-1 bg-white shadow-md shadow-white rounded-lg" />
           </div>
         </div>
       </div>

@@ -58,7 +58,7 @@ export function LampDemo() {
         </h1>
       </div>
 
-      <div className="grid grid-cols-7 gap-4 p-4 gap-y-5 mt-20">
+      <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4 p-4 gap-y-5 mt-20">
         {images.map((src, index) => (
           <div
             key={index}
