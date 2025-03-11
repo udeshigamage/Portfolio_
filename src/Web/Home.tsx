@@ -1,4 +1,4 @@
-import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { Spotlight } from "../Components/Spotlight";
 import { TypewriterEffectSmooth } from "../Components/Typewriter";
 import { BackgroundBeams } from "../Components/background";
