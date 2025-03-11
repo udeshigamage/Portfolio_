@@ -1,18 +1,14 @@
 import pico1 from "../assets/mongodb.jpg";
 import pico2 from "../assets/net.jpg";
 import pico3 from "../assets/node.png";
-
 import pico4 from "../assets/mysql.png";
-
 import pico5 from "../assets/figma.png";
-
 import pico6 from "../assets/nextjs.png";
 import pico7 from "../assets/c++.jpg";
 import pico8 from "../assets/c.png";
 import pico9 from "../assets/css_2.png";
 import pico10 from "../assets/posgresql.png";
 import pico11 from "../assets/phthon.png";
-
 import pico12 from "../assets/csharp.png";
 import pico13 from "../assets/css.png";
 import pico14 from "../assets/js.png";
@@ -51,7 +47,10 @@ export function LampDemo() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-900 text-white flex justify-center items-center overflow-hidden flex flex-col ">
+    <div
+      className="min-h-screen bg-slate-900 text-white flex justify-center items-center overflow-hidden flex flex-col "
+      id="skills"
+    >
       <div className="flex flex-col justify-center items-center lg:text-5xl m-2">
         <h1 className="text-white shadow-md p-2 rounded-lg shadow-white mt-5">
           Technical Skills

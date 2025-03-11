@@ -1,5 +1,4 @@
 import Home from "./Web/Home";
-
 import Projects from "./Web/Projects";
 import Startup from "./Web/Startup";
 import Navbar from "./Web/Navbar";
@@ -11,7 +10,6 @@ const Layout = () => {
       <Navbar />
       <Startup />
       <LampDemo />
-
       <Projects />
       <Home />
     </div>
